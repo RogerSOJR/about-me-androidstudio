@@ -12,9 +12,27 @@
         android:text="@string/name"
         android:textAlignment="center" />
 
+    <EditText
+        android:id="@+id/editnickname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:hint="@string/nickname"
+        android:autofillHints="name"
+        android:text=""
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnDone"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="@string/done"
+        android:layout_gravity="center_horizontal"
+        android:onClick="clickHandlerFunction" />
+
     <ImageView
         android:id="@+id/starImage"
-        android:contentDescription="Yellow Star"
+        android:contentDescription="@string/yellowStar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
